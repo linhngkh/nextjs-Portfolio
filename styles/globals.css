@@ -10,7 +10,21 @@ body {
   min-height: 100vh;
   scroll-behavior: smooth;
   box-sizing: border-box;
-  background: #6600ff;
+  background-image: linear-gradient(
+    to left bottom,
+    #4d00ff,
+    #774bff,
+    #9978ff,
+    #b7a1ff,
+    #d5c9ff,
+    #e2cbfe,
+    #edcefd,
+    #f8d1fc,
+    #ffa6e0,
+    #ff75ad,
+    #ff3d66,
+    #ff0000
+  );
   background-size: cover;
   background-attachment: fixed;
   color: white;

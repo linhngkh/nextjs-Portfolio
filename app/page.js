@@ -7,14 +7,14 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="w-screen h-[200vh] flex flex-col justify-center items-center text-center">
+      <main className="w-screen h-[200vh] flex flex-col justify-center items-center text-center sm:w-30 md:w-35">
         <section className="w-full ">
           <div className="uppercase mb-9">
-            <h1 className="text-5xl font-bold tracking-[.5em] uppercase leading-relaxed">
+            <h1 className="lg:text-5xl font-bold tracking-[.5em] uppercase leading-relaxed text-shadow-xl  hover:drop-shadow-xl md:text-lg sm:text-md">
               welcome to <br /> my portfolio space
             </h1>
             <div className="m-8">
-              <p className="text-3xl tracking-wider font-medium">
+              <p className="lg:text-3xl tracking-wider font-medium text-shadow-xl hover:drop-shadow-xl md:text-lg sm:text-md">
                 junior front end web developer
               </p>
             </div>
@@ -27,12 +27,12 @@ export default function Home() {
               width="400"
               height="600"
               alt="picture"
-              className="m-auto"
+              className="m-auto drop-shadow-2xl hover:drop-shadow-xl -z-1"
             />
-            <div className="text-xl text-black text-start ml-5">
+            <div className="text-xl text-black text-start ml-7">
               <p>
-                Moi! I'm an ex-business student who loves building things with
-                code.
+                Moi! I&apos;m an ex-business student who loves building things
+                with code.
               </p>{" "}
               <br />
               <p>
@@ -55,11 +55,11 @@ export default function Home() {
                 Academy, so I joined the course and I have gained numerous
                 things about both Front End and Back End. By that, I am deeply
                 more into learning ReactJS framework to build functional apps
-                raise standards for what's expected of any web application.
+                raise standards for what&apos;s expected of any web application.
               </p>
               <br />
               <p>
-                I'm now seeking a full-time role where I can contribute my
+                I&apos;m now seeking a full-time role where I can contribute my
                 skills both in coding and business to help a company achieve
                 their goals.
               </p>
