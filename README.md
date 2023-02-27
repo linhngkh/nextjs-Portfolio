@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+```bash 
+ Purpose of this project is to learn Nextjs and make website have more high user experience. Also to showcase my website portfolio 
+```
+
 ## Getting Started
 
 First, run the development server:
