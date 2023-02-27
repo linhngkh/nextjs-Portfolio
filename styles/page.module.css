@@ -1,0 +1,15 @@
+.about {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  padding: 40px;
+  /* padding-left: 70px;
+  padding-right: 70px; */
+  height: 40rem;
+  margin: 30px;
+  /* margin-right: 30px;
+  margin-bottom: 70px; */
+  background-color: #fede00;
+  z-index: -1;
+}
+

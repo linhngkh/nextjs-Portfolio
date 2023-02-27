@@ -7,12 +7,12 @@
 html,
 body {
   margin: 0;
+  min-height: 100vh;
   scroll-behavior: smooth;
   box-sizing: border-box;
-  background: url("../public/images/cyberpunk-city.jpg") center no-repeat
-    no-repeat;
+  background: #6600ff;
   background-size: cover;
   background-attachment: fixed;
   color: white;
-  font: 14px/1.4 "Space Mono", monospace;
+  font: 16px/1.4 "Space Mono", monospace;
 }
