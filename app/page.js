@@ -24,7 +24,7 @@ export default function Home() {
         <section className="w-full mt-36">
           <div className={styles.about}>
             <Image
-              src="/../public/images/IMG-3852.JPG"
+              src="/images/IMG-3852.JPG"
               width="400"
               height="600"
               alt="picture"

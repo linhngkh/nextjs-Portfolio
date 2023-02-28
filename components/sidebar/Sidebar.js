@@ -5,9 +5,16 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 
 export default function SideBar() {
   return (
-    <>
+    <main className="">
       <div className="">
-        <Image alt="" src="" />
+        <Image
+          alt="avatar"
+          src="/images/linh-avatar.jpg"
+          className=" mx-auto border rounded-full "
+          width={150}
+          height={150}
+          quality="100"
+        />
         <h1>Linh Nguyen</h1>
         <div>Junior Web Developer</div>
         <div>Download Resume</div>
@@ -29,6 +36,6 @@ export default function SideBar() {
           <a href="mailto:linh.nguyenkhanhib@gmail.com">Email me</a>{" "}
         </button>
       </div>
-    </>
+    </main>
   );
 }
