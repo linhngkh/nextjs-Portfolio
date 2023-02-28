@@ -16,5 +16,8 @@ module.exports = {
         green: "hsl(220 17% 17% / 0.9)",
       },
     },
+    fontFamily: {
+      kaushan: ["Kaushan Script", "cursive"],
+    },
   },
 };
