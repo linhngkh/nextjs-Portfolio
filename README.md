@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## 💻 Purpose of my website project is to learn Nextjs 13 for React framework and build website from scratch more highly user experience and functional performance . Also to showcase my website portfolio.
 ---
 
- <strong> MY_PORTFOLIO_LINK: </strong> 👁 👅 👁 https://linh-web-portfolio.vercel.app/
+ <strong> MY_PORTFOLIO_LINK: </strong> 👁 👅 👁 https://linhng-portfolio.vercel.app/
 
 ---
 
