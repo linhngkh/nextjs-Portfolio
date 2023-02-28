@@ -1,8 +1,12 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-```bash 
- Purpose of this project is to learn Nextjs and make website have more high user experience. Also to showcase my website portfolio 
-```
+
+## 💻 Purpose of my website project is to learn Nextjs 13 for React framework and build website from scratch more highly user experience and functional performance . Also to showcase my website portfolio.
+---
+
+ <strong> MY_PORTFOLIO_LINK: </strong> 👁 👅 👁 https://linh-web-portfolio.vercel.app/
+
+---
 
 ## Getting Started
 
