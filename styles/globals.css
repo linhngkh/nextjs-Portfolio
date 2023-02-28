@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
 html,
 body {
@@ -10,23 +10,8 @@ body {
   min-height: 100vh;
   scroll-behavior: smooth;
   box-sizing: border-box;
-  background-image: linear-gradient(
-    to left bottom,
-    #4d00ff,
-    #774bff,
-    #9978ff,
-    #b7a1ff,
-    #d5c9ff,
-    #e2cbfe,
-    #edcefd,
-    #f8d1fc,
-    #ffa6e0,
-    #ff75ad,
-    #ff3d66,
-    #ff0000
-  );
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: hsl(220 17% 17% / 0.9);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
   color: white;
-  font: 16px/1.4 "Space Mono", monospace;
 }

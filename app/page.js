@@ -1,21 +1,22 @@
-import { Navbar } from "../components/navbar/Navbar";
+import Navbar from "../components/navbar/Navbar";
 import About from "./about/page";
 import "../styles/globals.css";
 import styles from "../styles/page.module.css";
 import Image from "next/image";
+
 export default function Home() {
   return (
     <>
       <Navbar />
       <main className="w-screen h-[200vh] flex flex-col justify-center items-center text-center sm:w-30 md:w-35">
-        <section className="w-full ">
-          <div className="uppercase mb-9">
-            <h1 className="lg:text-5xl font-bold tracking-[.5em] uppercase leading-relaxed text-shadow-xl  hover:drop-shadow-xl md:text-lg sm:text-md">
+        <section className="">
+          <div className=" relative -mt-60 uppercase ">
+            <h1 className="lg:text-5xl font-bold tracking-[.5em] uppercase leading-loose  hover:drop-shadow-xl md:text-lg sm:text-md  shadow-lg shadow-purple">
               welcome to <br /> my portfolio space
             </h1>
             <div className="m-8">
-              <p className="lg:text-3xl tracking-wider font-medium text-shadow-xl hover:drop-shadow-xl md:text-lg sm:text-md">
-                junior front end web developer
+              <p className="lg:text-3xl tracking-wider font-medium hover:drop-shadow-xl md:text-lg sm:text-md">
+                front end web developer
               </p>
             </div>
           </div>
@@ -23,7 +24,7 @@ export default function Home() {
         <section className="w-full mt-36">
           <div className={styles.about}>
             <Image
-              src="/images/IMG-3852.jpg"
+              src="/../public/images/IMG-3852.JPG"
               width="400"
               height="600"
               alt="picture"

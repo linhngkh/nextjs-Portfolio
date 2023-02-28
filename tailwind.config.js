@@ -9,7 +9,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        purple: "hsl(262 80% 50%)",
+        gray: "hsl(220 13% 69%)",
+        green: "hsl(220 17% 17% / 0.9)",
+      },
+    },
   },
-  plugins: [require("tailwindcss-textshadow")],
 };

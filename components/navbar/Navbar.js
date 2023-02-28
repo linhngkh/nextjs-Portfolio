@@ -2,20 +2,19 @@ import Link from "next/link";
 
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 
-export const Navbar = () => {
+export default function Navbar() {
   return (
-    <nav className=" fixed lg:visible sm:invisible md:visible w-full top-0 h-16">
-      <ul className="flex justify-evenly p-5 text-xl capitalize text-shadow-xl hover:drop-shadow-xl">
-        <li>
-          <Link href="/">linh nguyen</Link>
+    <nav className=" fixed lg:visible sm:invisible md:visible w-full top-0 h-16 bg-green bg-opacity-20">
+      <ul className="flex justify-evenly p-5 text-xl capitalize text-shadow-xl hover:drop-shadow-xl text-gray font-bold">
+        <li className="hover:underline hover:decoration-4 hover:decoration-white">
+          <Link href="/" className="text-purple text-3xl font-black">
+            linh <span className="text-gray">nguyen</span>{" "}
+          </Link>
         </li>
-        <li>
-          <Link href="/projects">projects</Link>
-        </li>
-        <li>
+        <li className="hover:underline hover:decoration-4 hover:decoration-white">
           <Link href="/resume">Resume</Link>
         </li>
-        <li>
+        <li className="hover:underline hover:decoration-4 hover:decoration-white">
           <Link href="#technologies">technologies</Link>
         </li>
         <div className="flex space-x-5 text-shadow-xl hover:drop-shadow-xl">
@@ -36,4 +35,4 @@ export const Navbar = () => {
       </ul>
     </nav>
   );
-};
+}
