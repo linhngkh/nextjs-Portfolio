@@ -11,9 +11,15 @@ export default function Home() {
       <main className="w-screen h-[200vh] flex flex-col justify-center items-center text-center sm:w-30 md:w-35">
         <section className="">
           <div className=" relative -mt-60 uppercase ">
-            <h1 className="lg:text-5xl font-bold tracking-[.5em] uppercase leading-loose  hover:drop-shadow-xl md:text-lg sm:text-md  shadow-lg shadow-purple subpixel-antialiased ">
-              welcome to <br /> my portfolio space
-            </h1>
+            <div className="">
+              <h1 className="lg:text-5xl font-bold tracking-[.5em] uppercase leading-loose  hover:drop-shadow-xl md:text-lg sm:text-md  shadow-lg shadow-purple subpixel-antialiased px-5">
+                welcome to
+                <div className=" py-10 ">
+                  <h1 className=""> my portfolio space</h1>
+                </div>
+              </h1>
+            </div>
+
             <div className="m-8">
               <p className="lg:text-3xl tracking-wider font-medium hover:drop-shadow-xl md:text-lg sm:text-md subpixel-antialiased ">
                 front end web developer

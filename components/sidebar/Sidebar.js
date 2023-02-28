@@ -3,6 +3,8 @@ import Image from "next/image";
 
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 
+import { FaMapMarkerAlt } from "react-icons/fa";
+
 export default function SideBar() {
   return (
     <main className=" text-center">
@@ -25,7 +27,7 @@ export default function SideBar() {
         <div className="text-xl bg-indigo-200  mb-3 rounded-lg py-2">
           Download Resume
         </div>
-        <div className="flex justify-evenly text-purple">
+        <div className="flex justify-evenly text-purple p-4 cursor-pointer">
           <a href="https://github.com/linh-nguyenkhanh">
             <AiFillGithub size="40" />
           </a>
@@ -33,15 +35,21 @@ export default function SideBar() {
             <AiFillLinkedin size="40" />
           </a>
         </div>
-        <div className="">
-          <p>Helsinki, Finland</p>
+        <div className="text-xl bg-indigo-200  mb-3 py-2">
+          <div className="flex justify-center items-center">
+            {" "}
+            <FaMapMarkerAlt className="mr-2" />
+            <span>Helsinki, Finland</span>
+          </div>
           <p>linh.nguyenkhanhib@gmail.com</p>
           <p>+358 41 7043447</p>
         </div>
-        <button>
-          {" "}
-          <a href="mailto:linh.nguyenkhanhib@gmail.com">Email me</a>{" "}
-        </button>
+        <div className="mt-10">
+          <button className="btn btn-primary btn-wide">
+            {" "}
+            <a href="mailto:linh.nguyenkhanhib@gmail.com">Email me</a>{" "}
+          </button>
+        </div>
       </div>
     </main>
   );
