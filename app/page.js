@@ -1,4 +1,4 @@
-import { Navbar } from "./navbar/page";
+import { Navbar } from "../components/navbar/Navbar";
 import About from "./about/page";
 import "../styles/globals.css";
 import styles from "../styles/page.module.css";
