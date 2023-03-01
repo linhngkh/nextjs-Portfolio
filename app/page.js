@@ -1,8 +1,7 @@
-
 import Hero from "@/components/hero/Hero";
 import Navbar from "../components/navbar/Navbar";
 import styles from "../styles/globals.css";
-
+import { AboutMe } from "@/components/about/AboutMe";
 export default function Home() {
   return (
     <>
@@ -13,7 +12,7 @@ export default function Home() {
         {/* hero section */}
         <Hero />
       </main>
-
+      <AboutMe />
       {/* footer section */}
       <footer className=" bottom-0 mt-auto w-full text-center mb-6 ">
         {" "}

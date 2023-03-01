@@ -13,11 +13,6 @@ export const AboutMe = () => {
       />
       <div className="text-xl text-black text-start ml-7">
         <p>
-          Moi! I&apos;m an ex-business student who loves building things with
-          code.
-        </p>{" "}
-        <br />
-        <p>
           I first became fascinated with programming last year when I spent time
           studying UI/UX design. As a person who looks for using aesthetic and
           efficient applications, I was hooked into coding.

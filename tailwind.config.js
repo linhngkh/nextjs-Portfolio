@@ -19,6 +19,7 @@ module.exports = {
     fontFamily: {
       kaushan: ["Kaushan Script", "cursive"],
     },
+   
   },
   // add daisyUI plugin
   plugins: [require("daisyui")],
