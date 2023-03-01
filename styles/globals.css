@@ -17,3 +17,13 @@ body {
   color: white;
 }
 
+.main {
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.main::-webkit-scrollbar {
+  display: none;
+}

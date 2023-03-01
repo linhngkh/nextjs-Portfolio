@@ -28,7 +28,7 @@ export default function Project() {
   };
 
   return (
-    <main className="flex flex-col col-span-2">
+    <main className="flex flex-col col-span-2 ">
       <div className="m-3 px-4">
         {" "}
         <h1 className="text-3xl text-purple underline underline-offset-8 font-black">
