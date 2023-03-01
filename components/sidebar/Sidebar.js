@@ -2,7 +2,7 @@
 import Image from "next/image";
 
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-
+import { MdDownload } from "react-icons/md";
 import { FaMapMarkerAlt } from "react-icons/fa";
 
 export default function SideBar() {
@@ -17,16 +17,22 @@ export default function SideBar() {
           height={150}
           quality="100"
         />
-        <h3 className="text-3xl text-purple font-extrabold antialiased tracking-wider font-kaushan m-3">
+        <h3 className="text-4xl text-purple font-extrabold antialiased tracking-wider font-kaushan m-3">
           Linh Nguyen
         </h3>
 
         <div className="text-xl  bg-indigo-200 mb-3 rounded-lg py-2">
           Junior Web Developer
         </div>
-        <div className="text-xl bg-indigo-200  mb-3 rounded-lg py-2">
-          Download Resume
-        </div>
+
+        <a
+          href="/assets/Linh-Ng-CV.pdf"
+          download="Linh-Ng-CV.pdf"
+          className="flex justify-center items-center text-xl bg-indigo-200  rounded-lg py-2 cursor-pointer"
+        >
+          <MdDownload className="ml-2" size="30" /> <span>Download Resume</span>
+        </a>
+
         <div className="flex justify-evenly text-purple p-4 cursor-pointer">
           <a href="https://github.com/linh-nguyenkhanh">
             <AiFillGithub size="40" />
