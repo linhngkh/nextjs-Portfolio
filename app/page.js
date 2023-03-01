@@ -3,6 +3,7 @@ import About from "./about/page";
 import "../styles/globals.css";
 import styles from "../styles/page.module.css";
 import Image from "next/image";
+import Cube3D from "../components/cube3D/Cube3D";
 
 export default function Home() {
   return (
@@ -11,7 +12,8 @@ export default function Home() {
       <main className="w-screen h-[200vh] flex flex-col justify-center items-center text-center sm:w-30 md:w-35">
         <section className="">
           <div className=" relative -mt-60 uppercase ">
-            <div className="">
+            <div className="flex flex-row">
+              <Cube3D />
               <h1 className="lg:text-5xl font-bold tracking-[.5em] uppercase leading-loose  hover:drop-shadow-xl md:text-lg sm:text-md  shadow-lg shadow-purple subpixel-antialiased px-5">
                 welcome to
                 <div className=" py-10 ">

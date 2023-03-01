@@ -30,10 +30,13 @@ export default function SideBar() {
           download="Linh-Ng-CV.pdf"
           className="flex justify-center items-center text-xl bg-indigo-200  rounded-lg py-2 cursor-pointer"
         >
-          <MdDownload className="ml-2" size="30" /> <span>Download Resume</span>
+          <MdDownload className="ml-2" size="30" />{" "}
+          <span className="hover:text-purple cursor-pointer">
+            Download Resume
+          </span>
         </a>
 
-        <div className="flex justify-evenly text-purple p-4 cursor-pointer">
+        <div className="flex justify-evenly text-purple p-4 cursor-pointer hover:text-violet-500">
           <a href="https://github.com/linh-nguyenkhanh">
             <AiFillGithub size="40" />
           </a>
