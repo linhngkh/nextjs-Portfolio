@@ -9,10 +9,10 @@ export default function Navbar() {
         <li className="hover:underline hover:decoration-4 hover:decoration-white ">
           <Link
             href="/"
-            className="text-purple text-3xl font-black tracking-widest"
+            className="text-violet-500 text-3xl font-black tracking-widest"
           >
             linh{" "}
-            <span className="text-white text-3xl tracking-widest"> nguyen</span>{" "}
+            <span className="text-white text-2xl tracking-widest"> nguyen</span>{" "}
           </Link>
         </li>
         <li className="hover:underline hover:decoration-4 hover:decoration-white">

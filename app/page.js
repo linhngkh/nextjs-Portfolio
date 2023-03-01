@@ -18,9 +18,15 @@ export default function Home() {
 
       <footer className="footer footer-center p-10 bg-base-200 text-white rounded ">
         <div className="grid grid-flow-col gap-4">
-          <a className="link link-hover">Home</a>
-          <a className="link link-hover">Resume</a>
-          <a className="link link-hover">Projects</a>
+          <a href="/" className="link link-hover">
+            Home
+          </a>
+          <a href="/resume" className="link link-hover">
+            Resume
+          </a>
+          <a href="/project" className="link link-hover">
+            Projects
+          </a>
         </div>
         <div>
           <div className="grid grid-flow-col gap-4">

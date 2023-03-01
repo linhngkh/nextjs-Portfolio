@@ -14,7 +14,7 @@ const Hero = () => {
           <directionalLight position={[3, 2, 1]} />
           <Cube />
         </Canvas>
-        <div className="flex-9 flex justify-center items-center flex-col text-start bg-green">
+        <div className="flex-7 flex justify-center items-center flex-col text-start bg-green">
           <div className="mb-7">
             <h1 className="lg:text-5xl font-bold tracking-[.5em] uppercase leading-loose  md:text-lg sm:text-md subpixel-antialiased hover:text-violet-400">
               welcome to my space
