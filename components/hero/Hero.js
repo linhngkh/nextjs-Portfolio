@@ -6,7 +6,7 @@ import { Cube } from "../cube3D/Cube";
 
 const Hero = () => {
   return (
-    <div className="h-screen flex content-center justify-between snap-center ">
+    <div className="h-screen flex content-center justify-between snap-center mt-10">
       <section className="h-screen snap-center w-1400 flex justify-between">
         <Canvas camera={{ fov: 25, position: [5, 5, 5] }}>
           <OrbitControls enableZoom={false} autoRotate />
@@ -14,7 +14,7 @@ const Hero = () => {
           <directionalLight position={[3, 2, 1]} />
           <Cube />
         </Canvas>
-        <div className="flex-8 flex justify-center items-center flex-col text-start ">
+        <div className="flex-8 flex justify-center items-center flex-col text-start bg-green">
           <div className="mb-7">
             <h1 className="lg:text-5xl font-bold tracking-[.5em] uppercase leading-loose  md:text-lg sm:text-md subpixel-antialiased hover:text-violet-400">
               welcome to my space
