@@ -8,13 +8,16 @@ const Hero = () => {
   return (
     <div className="h-screen flex content-center justify-between snap-center mt-10">
       <section className="h-screen snap-center w-1400 flex justify-between">
-        <Canvas camera={{ fov: 25, position: [5, 5, 5] }} className="flex-2">
+        <Canvas
+          camera={{ fov: 25, position: [5, 5, 5] }}
+          className="flex-2 md:flex-1"
+        >
           <OrbitControls enableZoom={false} autoRotate />
           <ambientLight intensity={1} />
           <directionalLight position={[3, 2, 1]} />
           <Cube />
         </Canvas>
-        <div className="flex-2 flex justify-center items-center flex-col text-start bg-green ">
+        <div className="flex-2 flex justify-center items-center flex-col text-start bg-green md:flex-1 ">
           <div className="mb-7 ">
             <h1 className=" text-5xl font-bold tracking-[.5em] uppercase leading-loose subpixel-antialiased hover:text-violet-400  ">
               welcome to <span className="">my space</span>

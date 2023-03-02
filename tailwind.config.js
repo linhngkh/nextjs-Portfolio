@@ -18,8 +18,8 @@ module.exports = {
     },
 
     screens: {
-      sm: "768px",
-      // => @media (min-width: 768px) { ... }
+      sm: { min: "576px", max: "767px" },
+      md: { min: "768px", max: "991px" },
     },
 
     fontFamily: {
