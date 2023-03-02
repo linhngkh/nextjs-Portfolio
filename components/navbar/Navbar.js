@@ -5,7 +5,7 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 export default function Navbar() {
   return (
     <nav className=" fixed lg:visible  w-full top-0 h-16 bg-green bg-opacity-20">
-      <ul className="flex justify-evenly p-5 text-xl capitalize text-shadow-xl hover:drop-shadow-xl font-bold sm:invisible md:collapse md:absolute  md:gap-4">
+      <ul className="flex justify-evenly p-5 text-xl capitalize text-shadow-xl hover:drop-shadow-xl font-bold  ">
         <li className="hover:underline hover:decoration-4 hover:decoration-white ">
           <Link
             href="/"
