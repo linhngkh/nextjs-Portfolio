@@ -11,7 +11,7 @@
      * TailwindCSS
        * DaisyUI
      * Three.js / Three fiber dei
-* Netlify
+* Vercel
 
 ### App functionality overview:
 - This web displays my study information and projects I did do.
