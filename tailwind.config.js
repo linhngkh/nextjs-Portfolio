@@ -16,10 +16,18 @@ module.exports = {
         green: "hsl(220 17% 17% / 0.9)",
       },
     },
+
+    screens: {
+      sm: "640px",
+      // => @media (min-width: 640px) { ... }
+
+      md: "768px",
+      // => @media (min-width: 768px) { ... }
+    },
+
     fontFamily: {
       kaushan: ["Kaushan Script", "cursive"],
     },
-   
   },
   // add daisyUI plugin
   plugins: [require("daisyui")],
