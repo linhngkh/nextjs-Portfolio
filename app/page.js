@@ -14,9 +14,9 @@ export default function Home() {
         <Hero />
       </main>
       <AboutMe />
-      {/* footer section */}
 
-      <footer className="footer footer-center p-10 bg-base-200 text-white rounded ">
+      {/* footer section */}
+      <footer className="footer footer-center p-10 bg-base-200 text-white text-lg rounded ">
         <div className="grid grid-flow-col gap-4">
           <a href="/" className="link link-hover">
             Home
