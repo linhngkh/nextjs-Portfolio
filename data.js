@@ -25,7 +25,7 @@ const projects = {
       image_path: "/images/crud-app.png",
       deployed_url: "https://pern-todo-list.netlify.app/",
       github_url: "https://github.com/linh-nguyenkhanh/CRUD-app",
-      category: ["react"],
+      category: ["react", "postgres"],
       key_techs: [
         "react",
         "TailwindCSS",

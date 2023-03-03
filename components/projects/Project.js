@@ -1,13 +1,17 @@
 "use client";
 
 import { ProjectFilter } from "./ProjectFilter";
-import React, { useState } from "react";
+import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import projects from "../../data.js";
+import "../../styles/page.module.css";
+
 import Image from "next/image";
+
 export default function Project() {
   const [displayItems, setDisplayItems] = useState(projects.items);
   const [active, setActive] = useState("all");
+  const [showDetail, setShowDetail] = useState(false);
 
   const handleCategoryClick = (category) => {
     if (category === active) return;
@@ -26,6 +30,8 @@ export default function Project() {
       setDisplayItems(filterData);
     }, 400);
   };
+
+  // show detail project
 
   return (
     <main className="flex flex-col col-span-2">
@@ -57,19 +63,19 @@ export default function Project() {
                 <motion.div
                   className="col-span-12 p-4  bg-indigo-200 overflow-hidden rounded-md "
                   key={i}
-                  layout
+                  layout="responsive"
                   initial={{ transform: "scale(0)" }}
                   animate={{ transform: "scale(1)" }}
                   exit={{ transform: "scale(0)" }}
                 >
                   <Image
                     src={image_path}
-                    className="rounded overflow-y-auto object-contain "
+                    className="rounded overflow-y-auto object-contain cursor-pointer"
+                    onClick={() => setShowDetail(true)}
                     alt={name}
                     width={300}
                     height={150}
                   />
-
                   <p className="text-xl font-bold text-center">{name}</p>
                 </motion.div>
               )
