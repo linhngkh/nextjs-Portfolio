@@ -7,8 +7,8 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 
 export default function SideBar() {
   return (
-    <main className=" text-center">
-      <div className="">
+    <main className=" text-center ">
+      <div className="h-[600px] ">
         <Image
           alt="avatar"
           src="/images/linh-avatar.jpg"
