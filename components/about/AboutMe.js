@@ -4,7 +4,7 @@ import styles from "../../styles/page.module.css";
 export const AboutMe = () => {
   return (
     <section className={styles.about}>
-      <div className="absolute -z-1 h-3 w-[30%] top-40 left-10">
+      <div className="absolute -z-1 h-3 w-[30%] top-40 left-10 sm:pr-10 sm:top-[200px]">
         <Image
           src="/images/IMG-3852.JPG"
           width="300"
@@ -14,7 +14,7 @@ export const AboutMe = () => {
         />
       </div>
 
-      <div className="absolute right-[50px] w-[60%] text-black text-start ml-7 md:max-w-xs md:text-clip overflow-hidden sm:inline sm:whitespace-normal sm:break-all sm:text-clip sm:text-md md:overflow-hidden">
+      <div className="absolute right-[50px] w-[60%] text-white text-start ml-7 md:max-w-xs  overflow-hidden sm:block   sm:text-md md:overflow-hidden">
         <p className="text-2xl md:text-lg sm:text-sm">
           I first became fascinated with programming last year when I spent time
           studying UI/UX design. As a person who looks for using aesthetic and
