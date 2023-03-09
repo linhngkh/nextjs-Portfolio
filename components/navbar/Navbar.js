@@ -9,10 +9,10 @@ export default function Navbar() {
         <li className="hover:underline hover:decoration-4 hover:decoration-white ">
           <Link
             href="/"
-            className="text-violet-500 text-3xl font-black tracking-widest md:text-2xl sm:text-lg"
+            className="text-violet-500 text-lg font-black tracking-widest md:text-md sm:text-sm"
           >
             linh{" "}
-            <span className="text-white text-2xl tracking-widest md:text-2xl sm:text-lg">
+            <span className="text-white text-lg tracking-widest md:text-md sm:text-sm">
               {" "}
               nguyen
             </span>{" "}
@@ -27,7 +27,7 @@ export default function Navbar() {
         <div className="flex space-x-5 text-shadow-xl hover:drop-shadow-xl cursor-pointer">
           <div>
             <a href="https://github.com/linh-nguyenkhanh" target="_blank">
-              <BsGithub size="2rem" />
+              <BsGithub size="1.5rem" />
             </a>
           </div>
           <div>
@@ -35,7 +35,7 @@ export default function Navbar() {
               href="https://www.linkedin.com/in/linhh-nguyenkhanh/"
               target="_blank"
             >
-              <BsLinkedin size="2rem" />
+              <BsLinkedin size="1.5rem" />
             </a>
           </div>
         </div>

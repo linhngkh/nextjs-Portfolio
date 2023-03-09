@@ -12,7 +12,7 @@ export const AboutMe = () => {
           className="m-auto drop-shadow-2xl hover:drop-shadow-xl -z-1 md:max-w-xs  rounded-md -z-1"
         />
         <div>
-          <h1 className="text-5xl font-bold">About me</h1>
+          <h1 className="text-4xl font-bold">About me</h1>
           <p className="py-6">
             I first became fascinated with programming last year when I spent
             time studying UI/UX design. As a person who looks for using

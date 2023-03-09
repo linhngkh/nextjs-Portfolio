@@ -18,8 +18,12 @@ const Hero = () => {
           <Cube />
         </Canvas>
         <div>
-          <h1 className="text-5xl font-bold">WELCOME TO MY PORTFOLIO!</h1>
-          <p className="py-6">FRONT END FOCUSED DEVELOPER</p>
+          <h1 className="text-4xl font-bold leading-loose subpixel-antialiased hover:text-violet-400">
+            WELCOME TO MY PORTFOLIO!
+          </h1>
+          <p className="py-6 text-xl text-violet-400 tracking-wider font-medium">
+            FRONT END FOCUSED DEVELOPER
+          </p>
           <div className="mockup-code bg-primary text-primary-content mb-6">
             <pre>
               <code>Moi! I&apos;m an ex-business student,</code>

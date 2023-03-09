@@ -5,12 +5,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
-html,
-body {
+
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 40px;
   min-height: 100vh;
   scroll-behavior: smooth;
-  box-sizing: border-box;
+
   background-color: hsl(220 17% 17% / 0.9);
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
